@@ -30,7 +30,10 @@
 
           shellHook = ''
             export JAVA_HOME=${pkgs.temurin-bin}/lib/openjdk
-            # export PATH=$JAVA_HOME/bin:$PATH
+            export PATH=$JAVA_HOME/bin:$PATH
+            alias run-java="sbt run"
+            alias run-scala="sbt run"
+            alias run-clojure="clj -M -m hello-clojure"
             # Custom Prompt
             export PS1="\n\[\e[1;32m\][devshell](java) \w\n❯ \[\e[0m\]"
           '';
