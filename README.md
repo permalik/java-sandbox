@@ -1,2 +1,2 @@
-# java_curricula
-curricula:java, scala, and conjure programming
+# java_sandbox
+sandbox:Java, Scala, and Conjure Programming and Turnkey Ecosystem
